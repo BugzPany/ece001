@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<title>Supmission</title>
+			<meta name="viewport" content="width=width-device">
+			 <link rel="stylesheet" href="registerstyle.css" /></--the css page link--/>
+	</head>
+		<body>
+			<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+			<header>
+				<div class="container">
+					<div id="branding">
+						<h1><span class="highlight">Footballista</span></h1>
+					</div>
+						<nav>
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="services.html">Services</a></li>
+								<li ><a href="Best players.html">Best Players</a></li>
+								<li class="current"><a href="register.html">register</a></li>
+							</ul>
+						</nav>
+				</div>
+			</header>
+
+			<div class="d1">
+						<form>
+								<br><br>
+								<label for="email"  style=" color:white"><b>Email</b></label><br>
+								<input type="email" placeholder="Enter Email" name="email"   required><br>
+								<label for="psw1"  style=" color:white"><b>Password</b></label><br>
+								<input input type="password" placeholder="Enter Password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br>
+								<label for="psw-repeat" style=" color:white"><b>Repeat Password</b></label><br>
+								<input input type="password"  placeholder="Repeat Password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br>
+								<label for="phone number"  style=" color:white"><b>Phone Number</b></label><br>
+								<input type="numbers" placeholder="Phone Number" name="phonenumber"><br>
+								<input type="radio" name="gender" value="male" style=" font:white;"> Male
+  							<input type="radio" name="gender" value="female"> Female
+  							<input type="radio" name="gender" value="other"> Other<br>
+								<button type="submit" class="registerbtn" style="text-align:center" formaction="index.html">Register</button>
+						</form>
+			</div>
+
+			<footer>
+	      <p>footballista, Copyright &copy; 2020</p>
+	    </footer>
+			<script src="js.js"></script>
+
+	</body>
+</html>
